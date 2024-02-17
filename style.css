@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/32c47234-8398-4a4f-a6b5-6803881d38bf/eed3a573-8db7-47ca-a2ce-b511e0350439/IN-en-20240122-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position:  center center;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: max(1300px,100vw);
+    position: relative;
+}   
+
+.main .box {
+    height: 650px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.default-ltr-cache-1d568uk {
+    width: 130px;
+    color: rgb(229,9,20);
+    fill: currentColor;
+    position: relative;
+    z-index: 9;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav .btn{
+    width: 126px;
+    height: 32px;
+    padding: 1px 12px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.btn-red{
+    width: 100px;
+    height: 32px;
+    padding: auto;
+    font-size: 20px;
+    position: relative;
+    margin-left: 10px;
+    z-index: 9;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.hero{
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 0 30px;
+}
+.hero h1{
+    letter-spacing: 0.05px;
+    font-size: 50px;
+}
+.hero p{
+    font-size:25px;
+    margin-top: 10px;
+}
+    
+.hero h4{
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 500;
+    word-spacing: 0.5px;
+}
+
+.hero .email{
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.hero .email input{
+    width: 384px;
+    height: 40px;
+    padding: 5px 2.5px;
+    background-color: transparent;
+    border-color: #f8f7f75b;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-right: 8px;
+    color: white;
+}
+
+.hero .email:focus input{
+    background-color: transparent;
+    /* color: white; */
+    text-decoration-color: transparent;
+}
+.hero .email .start{
+    width: 204px;
+    height: 56px;
+    padding: 5px 2.5px ;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.main .divider {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main .divider .line{
+    height: 10px;
+    width: 100%;
+    background: #3d3939bd;
+    opacity: 1;
+}
+
+#page2,#page3,#page4,#page5{
+    height: 460px;
+    padding: 72px 0px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:10px solid #3d3939bd;
+}
+.page2-left,.page3-right,.page4-left,.page5-right{
+    /* background-color: blue; */
+    color: white;
+    width: 40%;
+    margin-left: 100px;
+}
+.page2-left h4,.page3-right h4,.page4-left h4,.page5-right h4{
+    font-size: 48px;
+    font-weight: 900;
+}
+.page2-left p,.page3-right p,.page4-left p,.page5-right p{
+    font-size: 26px;
+    margin: 16px 0px 0px;
+}
+.page2-right,.page4-right{
+    margin-right: 100px;
+}
+.page2-right img{
+    width: 537px;
+    height: 428px;
+    position:absolute;
+}
+.page2-right video{
+    width: 465px;
+    height: 400px;
+    background-size:cover;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.page3-left img,.page5-left img{
+    width: 500px;
+    height: 387px;
+    margin-left: 150px;
+    float: right;
+}
+
+.page3-right h4{
+    margin-right: 250px;
+    margin: 1px;
+    float: right;
+}
+.page4-right{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.page4-right img{
+    height: auto;
+    width: auto;
+    position: relative;
+    z-index: 9;
+}
+.page4-right video{
+    height: 450px;
+    width: 405px;
+    background-size: cover;
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+}
+.page5-right {
+    margin-right: 100px;
+}
+.page5-right h4{
+    font-size: 44px;
+}
+.page5-right p{
+    font-size: 22px;
+}
+#page6{
+    width: 100%;
+    height: 1000px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    border-bottom:10px solid #3d3939bd ;
+}
+#page6 .container{
+   padding-top: 70px;
+}
+#page6 h2{
+    font-size: 48px;
+}
+#page6 button {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left:10%;
+    height: 60px;
+    padding: 44px;
+    font-size: 28px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(45,45,45);
+}
+#page6 button:hover{
+    background-color: rgb(65,65,65);
+}
+#page6 i{
+    color: #fff;
+    font-size: 58px;
+}
+#page6 p{
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+#page6 .log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+#page6 .log button{
+    width: 224px;
+    height: 70px;
+    padding: 10px 5px;
+    padding-left: 25px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+    border: none;
+    gap: 0px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+#page6 .log button span{
+    text-align: center;
+    padding-right: 15px;
+}
+#page6 .log button:hover{
+    background-color: #C11119;
+}
+
+#page6 .log input{
+    width: 384px;
+    height: 55px;
+    background-color: transparent;
+    border-color: #f8f7f75b;
+    font-size: 20px;
+    padding: 5px 2.5px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 25px;
+}
+#page6 .log input:focus{
+    background-color: transparent;
+    /* color: white; */
+    text-decoration-color: transparent;
+}
+
+.footer{
+    background-color: #000;
+    color: white;
+    min-height: 500px;
+    padding: 72px;
+    padding-left: 175px;
+}
+.footer h5{
+    font-size: 16px;
+    font-weight: 50;
+}
+.footer h5 a{
+    text-decoration: underline;
+}
+.footer .foot-panel1{
+    color: white;
+    height: 500px;
+   display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+ul{
+    margin-top: 30px;
+    position: relative;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color: #dddddd;
+    text-decoration: underline;
+}
+
+
